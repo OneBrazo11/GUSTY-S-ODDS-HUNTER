@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
-st.set_page_config(page_title="GUSTY'S GLOBAL HUNTER", layout="wide", page_icon="🏀")
+st.set_page_config(page_title="GLOBAL ODDS HUNTER", layout="wide", page_icon="🏀")
 
 # Estilos CSS
 st.markdown("""
@@ -16,8 +16,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🏀 GUSTY'S GLOBAL ODDS HUNTER")
-st.markdown("### 🚀 Radar de Apuestas: NBA, Cuartos, Mitades y Más.")
+st.title("🏀 GLOBAL ODDS HUNTER")
+st.markdown("### 🚀 Radar de Apuestas: WINNER, HANDICAP, TOTALS, EVEN OR ODD.")
 
 # --- BARRA LATERAL (API KEY) ---
 st.sidebar.header("🔑 Llave de Acceso")
