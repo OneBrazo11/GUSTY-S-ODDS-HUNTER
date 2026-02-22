@@ -71,4 +71,4 @@ def get_odds_global(key, sport, market):
 
 # --- PANEL DE CRÉDITOS ---
 rem, used = get_quota_status(api_key)
-col1, col2, col3 = st.columns(
+col1, col2, col3 = st.columns(3)
